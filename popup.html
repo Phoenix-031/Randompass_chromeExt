@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div class="password-input">
+        <input type="text" placeholder="Generated Password" class="generatedpass">
+        <div class="copy-clipboard"><i class="fa-regular fa-copy"></i></div>
+        <div class="refresh-btn"><i class="fa-solid fa-arrows-rotate"></i></div>
+    </div>
+    <div class="button-div">
+        <button id="random">Generate</button>
+    </div>
+    <div class="password-fields">
+
+        <label for="passsize">Length</label>
+        <input type="text" id="passsize">
+        
+        <form >
+            <div class="checkboxitm">
+                <label for="uppercase">Uppercase</label>
+                <input type="checkbox" id="uppercase">
+            </div>
+            <div class="checkboxitm">
+                <label for="lowercase">Lowercase</label>
+                <input type="checkbox" id="lowercase">
+            </div>
+            <div class="checkboxitm">
+                <label for="numbers">Numbers</label>
+                <input type="checkbox" id="numbers">
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
