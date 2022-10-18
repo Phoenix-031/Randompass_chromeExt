@@ -2,7 +2,7 @@ const generate = document.getElementById('random')
 const copy = document.querySelector('.copy-clipboard')
 const passLength = document.getElementById('passsize')
 const regenerate = document.querySelector('.refresh-btn')
-const passSize = document.getElementById('passsize')
+// const passSize = document.getElementById('passlen')
 
 const uppercheck = document.getElementById('uppercase')
 const lowercheck = document.getElementById('lowercase')
@@ -89,11 +89,12 @@ const checkboxes = ()=>{
     document.getElementById('uppercase').checked = true
     document.getElementById('lowercase').checked = true
     document.getElementById('numbers').checked = true
+    getprintpass()
 }
 
 window.onload = checkboxes
 
-passSize.addEventListener('onChange', ()=>{
+passLength.addEventListener('onChange', ()=>{
     getprintpass()
 })
 
