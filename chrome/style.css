@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Enriqueta:wght@400;500;600&family=Poppins:ital,wght@0,300;0,400;0,500;1,400&family=Roboto+Slab:wght@300;400;500;600&family=Roboto:wght@300;400;500;700;900&family=Ubuntu:wght@400;500&family=Urbanist:wght@300;400;500;600;700;800&family=Varela&display=swap');
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -13,6 +15,7 @@ body{
     justify-content: center;
     align-items: center;
     padding: 1rem;
+    background:#162643;
 }
 
 .password-input{
@@ -25,6 +28,8 @@ body{
 .copy-clipboard,.refresh-btn{
     font-size: 1.2rem;
     cursor: pointer;
+    color: floralwhite;
+    transition: all 0.2s ease-in;
 }
 
 .copy-clipboard:hover,.refresh-btn:hover{
@@ -39,8 +44,10 @@ body{
     padding: 10px;
     padding-left: 20px;
     font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Poppins, sans-serif;
     outline: none;
+    background:#243350;
+    color:floralwhite;
 }
 
 .password-input input:hover{
@@ -49,21 +56,19 @@ body{
 
 .button-div button{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-    padding:10px 15px;
-    border-radius: 10px;
+    font-weight: semibold;
+    padding:0.6rem 1rem;
+    border-radius: 0.5rem;
     border: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.3s ease-in;
+    transition: all 0.1s ease-in;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
     cursor: pointer;
+    background:#243350;
+    color:floralwhite;
 }
 
 .button-div button:hover{
-    background-color: aqua;
-    transform: scale(1.2);
+    background-color: #27A691;
 }
 
 .password-fields{
@@ -77,21 +82,25 @@ body{
 }
 
 .password-fields label{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Poppins, sans-serif;
     font-weight: 500;
+    color:floralwhite;
+    font-size: 1rem;
 }
 
 .password-fields input{
     height: 30px;
     border-radius: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Poppins, sans-serif;
     font-weight: 400;
-    font-size: 0.7rem;
+    font-size: 1rem;
     padding: 10px;
     border: none;
+    background: #243350;
     outline: none;
     padding-left: 20px;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    color:floralwhite;
+    /* box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset; */
 }
 
 form{

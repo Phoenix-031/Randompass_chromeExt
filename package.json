@@ -1,0 +1,23 @@
+{
+  "name": "ext3-generatepassword",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Phoenix-031/Randompass_chromeExt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Phoenix-031/Randompass_chromeExt/issues"
+  },
+  "homepage": "https://github.com/Phoenix-031/Randompass_chromeExt#readme",
+  "dependencies": {
+    "tailwindcss": "^3.2.1"
+  }
+}
